@@ -3,7 +3,7 @@
 <%@ include file="/views/common/header.jsp" %>
 <div class="main">
 	<div class="sec01">
-	    <div class="container">
+	    <div class="container"> 
 	        <div class="simple_search">
 	            <form>
 	                <div class="inp_text">

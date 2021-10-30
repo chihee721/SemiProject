@@ -31,8 +31,7 @@ scope="application"/>
 			<h1 class="logo">
 				<a href="<%= request.getContextPath() %>/admin">
 					<img src="${contextPath}/resources/images/logo.png" alt="logo">
-				</a>
-				
+				</a>				
 			</h1>
 			<ul class="menuList">
 				<li>

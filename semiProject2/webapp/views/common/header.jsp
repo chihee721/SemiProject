@@ -10,17 +10,17 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no, address=no, email=no">
 	<link rel="shortcut icon" type="image/x-icon" href="/resources/images/favicon.png">
-    <script src="/semiProject/resources/js/jquery-1.11.2.min.js"></script>
-    <script src="/semiProject/resources/js/common.js"></script>    
-    <script type="text/javascript" src="/semiProject/resources/js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="/semiProject/resources/js/imagesloaded.pkgd.js"></script>
-    <script type="text/javascript" src="/semiProject/resources/js/jquery.mCustomScrollbar.min.js"></script>
-    <script type="text/javascript" src="/semiProject/resources/js/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="/semiProject/resources/js/ui.js"></script>
-    <link type="text/css" rel="stylesheet" href="/semiProject/resources/css/common.css">
-    <link type="text/css" rel="stylesheet" href="/semiProject/resources/css/main.css">
-    <link type="text/css" rel="stylesheet" href="/semiProject/resources/css/contents.css">
-    <script type="text/javascript" src="/semiProject/resources/js/contents.js"></script>
+    <script src="${contextPath}/resources/js/jquery-1.11.2.min.js"></script>
+    <script src="${contextPath}/resources/js/common.js"></script>    
+    <script type="text/javascript" src="${contextPath}/resources/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="${contextPath}/resources/js/imagesloaded.pkgd.js"></script>
+    <script type="text/javascript" src="${contextPath}/resources/js/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="${contextPath}/resources/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="${contextPath}/resources/js/ui.js"></script>
+    <link type="text/css" rel="stylesheet" href="${contextPath}/resources/css/common.css">
+    <link type="text/css" rel="stylesheet" href="${contextPath}/resources/css/main.css">
+    <link type="text/css" rel="stylesheet" href="${contextPath}/resources/css/contents.css">
+    <script type="text/javascript" src="${contextPath}/resources/js/contents.js"></script>
     
 <%-- session에 담긴 message 있을 경우 alert 하는 script --%>
 <% if(session.getAttribute("message") != null) {%>
@@ -41,7 +41,7 @@ scope="application"/>
 			<div class="inner">					
 				<div class="logo">
 					<a href="${ contextPath }">
-						<img src="/semiProject/resources/images/logo.png" alt="" />
+						<img src="${contextPath}/resources/images/logo.png" alt="" />
 					</a>
 				</div>
 				<div class="menuList">
@@ -63,7 +63,7 @@ scope="application"/>
 					<a href="#" class="btn btnType1 btnSizeS"><span>회원가입</span></a>
 				</div>
 				<div class="userArea" style="display: none">										
-                    <img src="/semiProject/resources/images/usericon.png" onclick="userCon()"/>                   
+                    <img src="${contextPath}/resources/images/usericon.png" onclick="userCon()"/>                   
                     <!-- 회원일 때 -->
                     <ul class="userCon" id="guestUserCon" style="display: none">
                         <li><a href="#">로그아웃</a></li>

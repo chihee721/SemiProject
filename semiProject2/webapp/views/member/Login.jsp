@@ -19,7 +19,7 @@
 </div>
 
 <!-- footer -->
-<%@ include file="/views/common/footer.jsp" %> 
+<%@ include file="/views/common/footer.jsp" %>
 
 <!-- 팝업 -->
 <div id="findId" class="layerPop findId">
